@@ -17,3 +17,6 @@ attendance.csv
 # Secrets
 .env
 .streamlit/secrets.toml
+
+# Zip Files (Do not upload the Fiverr product to GitHub)
+*.zip
