@@ -92,6 +92,11 @@ python view_attendance.py --date 2026-05-15
 python view_attendance.py --name Nitin
 ```
 
+### Step 8 (Optional) — Open the Streamlit Web Dashboard
+```
+streamlit run streamlit_app.py
+```
+
 ---
 
 ## How It Works
