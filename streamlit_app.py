@@ -355,7 +355,14 @@ with tab3:
         st.markdown("<div class='glass-card'>", unsafe_allow_html=True)
         st.markdown("<h3 style='color:#66fcf1;'>Register New Entity</h3>", unsafe_allow_html=True)
         new_name = st.text_input("Entity Identity (Name)")
-        uploaded_file = st.file_uploader("Upload Facial Data (JPG/PNG)", type=["jpg", "jpeg", "png"])
+        
+        image_source = st.radio("Data Source", ["Upload Image", "Use Camera"], horizontal=True)
+        
+        uploaded_file = None
+        if image_source == "Upload Image":
+            uploaded_file = st.file_uploader("Upload Facial Data (JPG/PNG)", type=["jpg", "jpeg", "png"])
+        else:
+            uploaded_file = st.camera_input("Capture Facial Data")
         
         if st.button("INITIALIZE REGISTRATION"):
             if new_name and uploaded_file:
@@ -365,7 +372,10 @@ with tab3:
                 if not os.path.exists(DB_DIR): os.makedirs(DB_DIR)
                 if not os.path.exists(person_dir): os.makedirs(person_dir)
                     
-                img_path = os.path.join(person_dir, f"1_{uploaded_file.name}")
+                # Save as timestamped file to avoid overwrites
+                img_name = f"1_{datetime.now().strftime('%Y%m%d%H%M%S')}.jpg"
+                img_path = os.path.join(person_dir, img_name)
+                
                 with open(img_path, "wb") as f:
                     f.write(uploaded_file.getbuffer())
                     
