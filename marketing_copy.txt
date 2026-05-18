@@ -1,0 +1,32 @@
+# Gig Title
+I will build a Smart AI Face Recognition Attendance System with Live Dashboard
+
+# Pricing Tiers
+- Basic ($95): Core AI Face Recognition Script + CSV Logging
+- Standard ($150): AI Face Recognition + Tkinter Desktop Dashboard + Motion Sensor Logic
+- Premium ($250): Complete System + Streamlit Web Dashboard + Setup Assistance + Source Code
+
+# Gig Description
+Are you tired of buddy-punching, lost RFID cards, and manual attendance tracking? 
+
+Welcome to the ultimate **Smart AI Face Recognition Attendance System**! 
+
+I have built an advanced, enterprise-grade attendance solution that uses state-of-the-art Computer Vision and Deep Learning (DeepFace) to automate attendance tracking. It uses a webcam to instantly recognize faces and log them in real-time.
+
+**🔥 Key Features Included in the System:**
+✔️ **Highly Accurate Face Recognition:** Uses DeepFace AI to match faces instantly.
+✔️ **Motion Detection Trigger:** The camera only processes frames when someone steps in front of it (Saves 80% CPU & Power!).
+✔️ **Liveness Detection (Anti-Spoofing):** Prevents people from cheating the system using photos or videos on their phones. It requires a physical blink to confirm liveness!
+✔️ **Beautiful Tkinter Desktop Dashboard:** View live stats, who is present/absent, and export data in one click.
+✔️ **Streamlit Web Dashboard:** A sleek web interface to view the attendance data remotely.
+✔️ **Automated CSV Exporting:** Ready to be imported into Excel or your HR system.
+
+**👨‍💻 What you will receive:**
+- The complete Python Source Code
+- A detailed Installation Manual
+- The Desktop GUI & Streamlit Web App code
+- 100% Ownership (Use it for your school, gym, office, or client)
+
+*Note: This system runs on Python and requires a webcam. I provide the full software solution.*
+
+Message me now and let's automate your business today!

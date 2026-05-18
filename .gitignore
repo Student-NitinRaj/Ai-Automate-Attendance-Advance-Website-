@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# Data and Databases
+database/
+attendance.csv
+
+# Models
+*.tflite
+*.task
+
+# Secrets
+.env
+.streamlit/secrets.toml
